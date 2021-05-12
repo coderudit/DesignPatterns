@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _004_FactoryPattern.PizzaStores_Factory;
+using _004_FactoryPattern.PizzaTypes;
 
 namespace _004_FactoryPattern
 {
@@ -6,6 +7,7 @@ namespace _004_FactoryPattern
     {
         static void Main(string[] args)
         {
+
             PizzaStore nyPizzaStore = new NYPizzaStore();
             PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
 

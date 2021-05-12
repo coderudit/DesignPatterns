@@ -1,4 +1,4 @@
-﻿namespace _004_FactoryPattern
+﻿namespace _004_FactoryPattern.PizzaTypes
 {
     public enum PizzaType
     {

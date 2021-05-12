@@ -1,11 +1,9 @@
-﻿namespace _004_FactoryPattern
+﻿using _004_FactoryPattern.PizzaTypes;
+
+namespace _004_FactoryPattern.PizzaStores_Factory
 {
     public abstract class PizzaStore
     {
-        public PizzaStore()
-        {
-        }
-
         /// <summary>
         /// Factory method
         /// </summary>
