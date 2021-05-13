@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001_StrategyPattern", "001_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003_DecoratorPattern", "003_DecoratorPattern\003_DecoratorPattern.csproj", "{150C972C-851C-4A22-88FE-C05F56295FD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_SingletonPatterns", "005_SingletonPatterns\005_SingletonPatterns.csproj", "{6AE3422D-F396-4BE7-A899-62EE63ADBEE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_SingletonPattern", "005_SingletonPatterns\005_SingletonPattern.csproj", "{6AE3422D-F396-4BE7-A899-62EE63ADBEE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
