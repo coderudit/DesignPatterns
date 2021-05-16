@@ -11,13 +11,14 @@
             empty = true;
             boiled = false;
         }
-            
-        //public static ChocolateBoiler GetChocolateBoiler()
-        //{
-        //    if (chocolateBoiler == null)
-        //        chocolateBoiler = new ChocolateBoiler();
-        //    return chocolateBoiler;
-        //}
+
+        public static ChocolateBoiler GetChocolateBoiler()
+        {
+            return chocolateBoiler;
+            //if (chocolateBoiler == null)
+            //    chocolateBoiler = new ChocolateBoiler();
+            //return chocolateBoiler;
+        }
 
         public void Fill()
         {
