@@ -22,6 +22,12 @@ namespace _002_ObserverPattern
                 $"% humidity");
         }
 
+        /// <summary>
+        /// Push Data
+        /// </summary>
+        /// <param name="temp"></param>
+        /// <param name="humidity"></param>
+        /// <param name="pressure"></param>
         public void Update(float temp, float humidity, float pressure)
         {
             Temperature = temp;
@@ -29,6 +35,9 @@ namespace _002_ObserverPattern
             Dislay();
         }
 
+        /// <summary>
+        /// Pull Data
+        /// </summary>
         public void Update()
         {
             Temperature = WeatherDataObject.Temperature;

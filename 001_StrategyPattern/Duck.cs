@@ -7,6 +7,10 @@ namespace _001_StrategyPattern
     /// </summary>
     public abstract class Duck
     {
+        public Duck()
+        {
+
+        }
         public Duck(IFlyBehaviour flyBehaviour, IQuackBehaviour quackBehaviour)
         {
             FlyBehaviour = flyBehaviour;
