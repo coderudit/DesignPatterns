@@ -1,11 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _006_CommandPattern.Appliances
 {
+    /// <summary>
+    /// Receiver class on which actions are performed.
+    /// These can be services also.
+    /// </summary>
     public class CeilingFan
     {
         public const int HIGH = 3;

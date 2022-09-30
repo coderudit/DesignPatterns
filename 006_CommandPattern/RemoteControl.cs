@@ -3,6 +3,9 @@ using _006_CommandPattern.Command;
 
 namespace _006_CommandPattern
 {
+    /// <summary>
+    /// Invoker
+    /// </summary>
     public class RemoteControl
     {
         IList<ICommand> _commandOnList;

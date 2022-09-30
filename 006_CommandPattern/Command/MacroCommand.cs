@@ -1,8 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace _006_CommandPattern.Command
 {
+    /// <summary>
+    /// Macro command which when Invoked calls an action on the array
+    /// of receiver classes i.e. Ceiling Fan, Garage Door, Light
+    /// </summary>
     public class MacroCommand : ICommand
     {
         ICommand[] _commands;

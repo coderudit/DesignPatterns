@@ -2,6 +2,10 @@
 
 namespace _006_CommandPattern.Appliances
 {
+    /// <summary>
+    /// Receiver class on which actions are performed.
+    /// These can be services also.
+    /// </summary>
     public class Light
     {
         public void On()

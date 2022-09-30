@@ -2,6 +2,10 @@
 
 namespace _006_CommandPattern.Command
 {
+    /// <summary>
+    /// Individual command which when Invoked calls an action on 
+    /// the receiver class i.e. Garage Door
+    /// </summary>
     public class GarageDoorCloseCommand : ICommand
     {
         GarageDoor _garageDoor;
